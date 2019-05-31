@@ -1,0 +1,19 @@
+Damien Henderson s6062610
+Milestone 4 v1 23/11/2017
+
+Milestones:
+
+Milestone 5
+
+	Goal: By week 10 i will have animation working with clipping to the screen
+
+	To test that this functionality works i will:
+		- Render 100 sprites at different frames of animation on different parts of the screen
+		- Render animated sprites which are partially offscreen to see if clipping still works on animated sprites
+
+Milestone 6 week 11
+	
+	Goal: By week 11 i will have a system to render a tilemap efficiently with culling of offscreen tiles
+	
+	To test that this functionality works i will:
+		- 

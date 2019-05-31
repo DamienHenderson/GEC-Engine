@@ -1,0 +1,10 @@
+Tileset: https://opengameart.org/content/32x32-tile-pixel-art-tilesheet
+HealthIndicators: https://opengameart.org/content/ekg-health-indicator
+ui: https://opengameart.org/content/sci-fi-user-interface-elements
+symbols: https://opengameart.org/content/6-sci-fi-symbols
+tileset: https://insomniaart.itch.io/2d-objects-for-scifi-or-castle-theme
+desert_tileset32x32: https://opengameart.org/content/desert-tileset-1
+Graphics: https://opengameart.org/content/complete-set-of-graphics-for-rts
+Terrain: https://opengameart.org/content/willotim-terrain
+Prototyping_Tiles: https://opengameart.org/content/texture-to-tile-project
+Kenney_RTS_Sci-Fi: https://opengameart.org/content/sci-fi-rts-120-sprites

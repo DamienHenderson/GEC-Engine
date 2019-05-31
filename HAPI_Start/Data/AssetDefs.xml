@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+
+<AssetDefinition>
+  <Sprites>
+    <Sprite name = "Player" path = "Data/TileSet.png" alpha = "0" x_frames = "12" y_frames ="16"/>
+    <Sprite name = "HealthOK" path = "Data/HealthIndicators/ekgOK_strip19.png" alpha = "1" x_frames = "19" y_frames="1"/>
+    <Sprite name = "HealthCAUTION" path = "Data/HealthIndicators/ekgCAUTION_strip19.png" alpha = "1" x_frames = "19" y_frames="1"/>
+    <Sprite name = "HealthDANGER" path = "Data/HealthIndicators/ekgDANGER_strip19.png" alpha = "1" x_frames = "19" y_frames="1"/>
+    <Sprite name = "Cursor" path = "Data/Graphics/cursor/static.png" alpha = "1" x_frames = "6" y_frames="1"/>
+    <Sprite name = "TileSet" path = "Data/desert_tileset32x32.png" alpha = "0" x_frames= "14" y_frames="3" />
+	<Sprite name = "Blue_Soldier" path = "Data/Kenney_RTS_Sci-Fi/Unit/scifiUnit_01.png" alpha = "1" x_frames= "1" y_frames="1" />
+  </Sprites>
+
+  <Sounds>
+
+  </Sounds>
+  <TileDefs>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_top_left_dune_inner" frame = "0" tileset ="TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_top_middle_dune_inner" frame = "1" tileset ="TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_top_right_dune_inner" frame = "2" tileset ="TileSet"/>
+
+
+    <TileDef move_cost ="2" passable =" 1" name ="desert_top_left_dune_outer" frame = "3" tileset ="TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_top_middle_dune_outer" frame = "4" tileset ="TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_top_right_dune_outer" frame = "5" tileset ="TileSet"/>
+
+    <TileDef move_cost ="1" passable =" 1" name ="desert_top_left_road_inner" frame = "6" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_top_middle_road_inner" frame = "7" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_top_right_road_inner" frame = "8" tileset ="TileSet"/>
+
+    <TileDef move_cost ="1" passable =" 1" name ="desert_road_long_line_vertical" frame = "9" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_road_short_line_vertical" frame = "10" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_road_bottom_to_right_line" frame = "11" tileset ="TileSet"/>
+
+    <TileDef move_cost ="999" passable = "0" name ="desert_wall" frame = "12" tileset = "TileSet"/>
+    <TileDef move_cost ="999" passable = "0" name ="desert_wall_dirty" frame = "13" tileset = "TileSet"/>
+
+    <TileDef move_cost ="2" passable =" 1" name ="desert_middle_left_dune_inner" frame = "14" tileset ="TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_middle_middle_dune_inner" frame = "15" tileset ="TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_middle_right_dune_inner" frame = "16" tileset ="TileSet"/>
+
+    <TileDef move_cost ="2" passable =" 1" name ="desert_middle_left_dune_outer" frame = "17" tileset ="TileSet"/>  
+    <TileDef move_cost = "2" passable = "1" name = "desert" frame = "18" tileset = "TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_middle_right_dune_outer" frame = "19" tileset ="TileSet"/>
+
+    <TileDef move_cost ="1" passable =" 1" name ="desert_middle_left_road_inner" frame = "20" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_road" frame = "21" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_middle_right_road_inner" frame = "22" tileset ="TileSet"/>
+
+    <TileDef move_cost ="1" passable =" 1" name ="desert_top_left_road_outer" frame = "23" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_top_right_road_outer" frame = "24" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_top_right_bottom_line_road" frame = "25" tileset ="TileSet"/>
+
+    <TileDef move_cost ="999" passable = "0" name ="desert_wall_cracked" frame = "26" tileset = "TileSet"/>
+    <TileDef move_cost ="1" passable = "1" name ="desert_road_cracked" frame = "27" tileset = "TileSet"/>
+
+    <TileDef move_cost ="2" passable =" 1" name ="desert_bottom_left_dune_inner" frame = "28" tileset ="TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_bottom_middle_dune_inner" frame = "29" tileset ="TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_bottom_right_dune_inner" frame = "30" tileset ="TileSet"/>
+
+    <TileDef move_cost ="2" passable =" 1" name ="desert_bottom_left_dune_outer" frame = "31" tileset ="TileSet"/>
+    <TileDef move_cost = "2" passable = "1" name = "desert_bottom_middle_dune_outer" frame = "32" tileset = "TileSet"/>
+    <TileDef move_cost ="2" passable =" 1" name ="desert_bottom_right_dune_outer" frame = "33" tileset ="TileSet"/>
+
+    <TileDef move_cost ="1" passable =" 1" name ="desert_bottom_left_road_inner" frame = "34" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_bottom_middle_road_inner" frame = "35" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_bottom_right_road_inner" frame = "36" tileset ="TileSet"/>
+
+    <TileDef move_cost ="1" passable =" 1" name ="desert_bottom_left_road_outer" frame = "37" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_bottom_right_road_outer" frame = "38" tileset ="TileSet"/>
+    <TileDef move_cost ="1" passable =" 1" name ="desert_top_right_bottom_left_line_road" frame = "39" tileset ="TileSet"/>
+
+    <TileDef move_cost ="999" passable = "0" name ="desert_wall_cracked_2" frame = "40" tileset = "TileSet"/>
+    <TileDef move_cost ="1" passable = "1" name ="desert_road_cracked_2" frame = "41" tileset = "TileSet"/>
+  
+  </TileDefs>
+
+</AssetDefinition>

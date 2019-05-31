@@ -1,0 +1,11 @@
+Memory leak detected!!! block at: 0000013800000070 of size 9216000 with name: Framebuffer was not freed
+Memory leak detected!!! block at: 00000138008CA070 of size 786432 was not freed
+Memory leak detected!!! block at: 000001380098A070 of size 77824 was not freed
+Memory leak detected!!! block at: 000001380099D070 of size 77824 was not freed
+Memory leak detected!!! block at: 00000138009B0070 of size 77824 was not freed
+Memory leak detected!!! block at: 00000138009C3070 of size 24576 was not freed
+Memory leak detected!!! block at: 00000138009C9070 of size 172032 was not freed
+Memory leak detected!!! block at: 00000138009F3070 of size 4194304 with name: Framebuffer was not freed
+Memory leak detected!!! block at: 00000138011F3070 of size 4194304 was not freed
+Memory leak detected!!! block at: 00000138015F3070 of size 4194304 with name: Framebuffer was not freed
+Memory leak detected!!! block at: 0000013801DF3070 of size 4194304 was not freed

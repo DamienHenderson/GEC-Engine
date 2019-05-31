@@ -1,0 +1,16 @@
+
+GamePlay:
+	- AI with pathfinding(A*)
+		- high priority
+		- pathfinding only done a certain distance ahead for performance and 'realism'
+	- Units which can attack each other
+	- Resources which are needed to create units/structures
+Rendering:
+	
+
+UI:
+	- Main menu
+	- MiniMap
+
+
+

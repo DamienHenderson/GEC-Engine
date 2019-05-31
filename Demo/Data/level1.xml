@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Level>
+  <!--TODO: load from asset def file -->
+  <Assets filepath = "AssetDefs.xml" relative = "1"/>
+	
+
+  <TileMap x_chunks="1" y_chunks ="1">
+    <Chunk x = "0" y = "0">
+      <Tile x ="0" y = "0" tile_def = "desert_road"/>
+    </Chunk>
+  </TileMap>
+</Level>

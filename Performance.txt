@@ -1,0 +1,9 @@
+[Milestone 1]
+just clearing framebuffer to stored framebuffer and screen to framebuffer = 400 fps
+naive clear to colour = 300 fps
+rendering 2 lines and 2 alpha blended sprites = 380 fps
+10 million stars = 4 fps
+10 million stars with pixels discarded if the stencil buffer had been written already at that pixel = 7 fps
+10 thousand stars = 250 fps
+
+[Milestone 2]

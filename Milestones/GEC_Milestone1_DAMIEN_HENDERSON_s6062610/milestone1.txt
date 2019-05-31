@@ -1,0 +1,24 @@
+Damien Henderson s6062610
+Milestone 1 v1 12/10/2017
+
+Features:
+- Multicoloured starfield
+- clear framebuffer to colour, greyscale or other framebuffer
+- set pixel to arbitrary colour
+- blit framebuffer to screen
+- control of the viewing angle with the xbox 360 controller
+- control of the eye distance with the up and down arrow keys
+- stars are drawn larger when they are closer
+
+Code Changes:
+- Added Screen class
+- Added FrameBuffer class
+- Added Star struct
+
+Tests:
+- Starfield appears to work from visual inspection as stars appear to change size as they get closer which is the expected result
+- Clearing the screen to a colour works as the intended colour is reproduced correctly when using the provided "PackRGBA" function
+- The framerate is acceptable with normal rendering such as 100 thousand stars
+- see Performance.txt
+Notes:
+- several files which are not relevant to this milestone have been omitted from code changes for the sake of brevity

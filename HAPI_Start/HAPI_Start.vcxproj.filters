@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{855825bc-01b8-4c37-9c13-62eafda2ed31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{f0fee4e8-6d1b-4bfb-9f2f-5254abae8018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{9157b8e7-0cf8-474b-9d2b-e6b13628da6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Memory">
+      <UniqueIdentifier>{017087c1-6e9c-427e-ae25-d8508d622dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Misc">
+      <UniqueIdentifier>{27513883-2e49-49c2-a21e-6b84dfb9c2bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Messages">
+      <UniqueIdentifier>{dd902510-4331-4b7a-a5bd-48d994682f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Units">
+      <UniqueIdentifier>{6c131393-4a42-4f2a-8a9a-5008a1e45d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Structures">
+      <UniqueIdentifier>{e583f5d1-f148-40fe-ac6a-2e7740456207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Units\Interfaces">
+      <UniqueIdentifier>{e012d35e-6122-4356-bde8-f7db55a07ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Tiles">
+      <UniqueIdentifier>{10cc457a-47d2-4fd4-9f23-ceeda13b3890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualisation.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Utils\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolAllocator.cpp">
+      <Filter>Utils\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utils\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageExchange.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Utils\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateEntityMessage.cpp">
+      <Filter>Utils\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSpriteMessage.cpp">
+      <Filter>Utils\Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="LandUnit.cpp">
+      <Filter>World\Units\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>World\Units\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="AirUnit.cpp">
+      <Filter>World\Units\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Graphics\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TileChunk.cpp">
+      <Filter>Graphics\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Graphics\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDefinition.cpp">
+      <Filter>Graphics\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Types.cpp">
+      <Filter>Utils\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameBuffer.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualisation.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.hpp">
+      <Filter>Utils\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolAllocator.hpp">
+      <Filter>Utils\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Utils\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageExchange.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.hpp">
+      <Filter>Utils\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateEntityMessage.hpp">
+      <Filter>Utils\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSpriteMessage.hpp">
+      <Filter>Utils\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="LandUnit.hpp">
+      <Filter>World\Units\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.hpp">
+      <Filter>World\Units\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="AirUnit.hpp">
+      <Filter>World\Units\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.hpp">
+      <Filter>Graphics\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TileChunk.hpp">
+      <Filter>Graphics\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>Graphics\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDefinition.hpp">
+      <Filter>Graphics\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="milestone1.txt" />
+    <Text Include="Milestone2.txt" />
+    <Text Include="Milestone3.txt" />
+    <Text Include="PlannedFeatures.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Data\config.xml" />
+    <Xml Include="Data\level1.xml" />
+    <Xml Include="Data\AssetDefs.xml" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Config>
+
+  <Window screen_width = "1920" screen_height = "1200" title = "Damien Henderson" fullscreen = "0"/>
+  
+  <Input show_cursor="0">
+    <InputMap type = "Keyboard" name = "up" code = "87"/>
+    <InputMap type = "Keyboard" name = "right" code = "68"/>
+    <InputMap type = "Keyboard" name = "down" code = "83"/>
+    <InputMap type = "Keyboard" name = "left" code = "65"/>
+    <InputMap type = "Keyboard" name = "quit" code = "27"/>
+    <InputMap type = "Controller_Analogue" name = "horizontal" code = "2"/>
+    <InputMap type = "Controller_Analogue" name = "vertical" code = "3"/>
+  </Input>
+</Config>
